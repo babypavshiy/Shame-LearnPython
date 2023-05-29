@@ -1,0 +1,3 @@
+text = "Пользователь, введите своё имя: "
+username = input(text)
+IRIS.userbase.names.add = username​

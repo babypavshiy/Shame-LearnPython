@@ -1,0 +1,8 @@
+#Статус дверей 3-го уровня
+
+door_status = "open"
+
+if (door_status == "open"):
+    second_floor.door_open()
+else:
+    second_floor.door_close()​

@@ -1,0 +1,6 @@
+f2 = open("Output.txt", "w")
+text[4] += "\n"
+text[0] =  text[0][:-1]
+text.reverse()
+f2.writelines(text)
+f2.close

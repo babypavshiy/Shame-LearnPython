@@ -1,0 +1,8 @@
+#Hе подпускайте Пико к ВОДЕ! 
+if (PICO.TankStatus == "low" or PICO.TankStatus == "mid")
+    if (fuel_in_range() and fuel_in_range(result = "type") != "water"):
+        PICO.Behavior = "charging"
+        move_to(get_fuel_coord())
+        fill_the_tank()
+    else:
+        PICO.Behavior = "patrol"​​
